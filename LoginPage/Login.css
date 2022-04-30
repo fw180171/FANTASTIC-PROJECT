@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(126, 112, 245);
+}
+#cont{
+    width: 30%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+#cont>*{
+    text-align: center;
+    margin: 80px 0;
+}
+h1{
+    font-size: 40px;
+}
+form>*{
+    width: 86%;
+    height: 60px;
+    display: block;
+    margin: 20px 7%;
+    font-size: 20px;
+}
+input{
+    border: none;
+    de
+    border-bottom: 3px solid rgb(112, 111, 111);
+    padding: 10px;
+}
+input:last-child{
+    color: white;
+    background-color: rgb(87, 68, 190);
+    border: none;
+}
+p{
+    margin: 20px;
+}
+span{
+    font-weight: bold;
+    color: rgb(106, 71, 187);
+}
